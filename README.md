@@ -13,9 +13,9 @@ you cannot reboot anymore because your login manager will fail to launch.
 
 # Errors
 
-systemctl status polkit.service
+`systemctl status polkit.service`
 
-polkitd[27310]: Error opening rules directory: Error opening directory '/etc/polkit-1/rules.d': Permission denied (g-file-error-quark, 2)
+`polkitd[27310]: Error opening rules directory: Error opening directory '/etc/polkit-1/rules.d': Permission denied (g-file-error-quark, 2)`
 
 # How to fix
 
