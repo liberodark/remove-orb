@@ -4,12 +4,12 @@ rm -r /opt/orb/
 #/usr/bin
 rm /usr/bin/orb
 rm /usr/bin/orb-check-signature
-rm /usr/bin/orb-check-update
+rm /usr/bin/orb-check-updates
 rm /usr/bin/orb-check-whitelist
 rm /usr/bin/orb-config
 rm /usr/bin/orb-launcher
 rm /usr/bin/orb-root
-rm /usr/bin/orb-tumbnailer
+rm /usr/bin/orb-thumbnailer
 rm /usr/bin/orb_tools.tar.gz
 
 #/usr/share/
@@ -39,4 +39,4 @@ chown root:root /usr/share /usr/share/thumbnailers /usr/share/applications /usr/
 
 
 #fix permissions 755
-chown chmod 755 /usr/share /usr/share/thumbnailers /usr/share/applications /usr/share/polkit-1 /usr/share/polkit-1/actions /usr/share/icons /usr/share/icons/gnome /usr/share/mime /usr/share/mime/packages /usr/bin /opt /var/cache /var
+chmod 755 /usr/share /usr/share/thumbnailers /usr/share/applications /usr/share/polkit-1 /usr/share/polkit-1/actions /usr/share/icons /usr/share/icons/gnome /usr/share/mime /usr/share/mime/packages /usr/bin /opt /var/cache /var
