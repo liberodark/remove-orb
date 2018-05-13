@@ -35,8 +35,8 @@ rm -r /var/cache/orbital-apps
 rm /tmp/tmpaddon /tmp/orb_icons_root
 
 #fix to root:root
-chown root:root /usr/share /usr/share/thumbnailers /usr/share/applications /usr/share/polkit-1 /usr/share/polkit-1/actions /usr/share/icons /usr/share/icons/gnome /usr/share/mime /usr/share/mime/packages /usr/bin /opt /var/cache
+chown root:root /usr/share /usr/share/thumbnailers /usr/share/applications /usr/share/polkit-1 /usr/share/polkit-1/actions /usr/share/icons /usr/share/icons/gnome /usr/share/mime /usr/share/mime/packages /usr/bin /opt /var/cache /var
 
 
 #fix permissions 755
-chown chmod 755 /usr/share /usr/share/thumbnailers /usr/share/applications /usr/share/polkit-1 /usr/share/polkit-1/actions /usr/share/icons /usr/share/icons/gnome /usr/share/mime /usr/share/mime/packages /usr/bin /opt /var/cache
+chown chmod 755 /usr/share /usr/share/thumbnailers /usr/share/applications /usr/share/polkit-1 /usr/share/polkit-1/actions /usr/share/icons /usr/share/icons/gnome /usr/share/mime /usr/share/mime/packages /usr/bin /opt /var/cache /var
