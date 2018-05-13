@@ -34,6 +34,10 @@ rm -r /var/cache/orbital-apps
 #/tmp
 rm /tmp/tmpaddon /tmp/orb_icons_root
 
+#/root
+rm -r /root/.icons
+rm /root/.mtab.fuseiso
+
 #fix to root:root
 chown root:root /usr /usr/share /usr/share/thumbnailers /usr/share/applications /usr/share/polkit-1 /usr/share/polkit-1/actions /usr/share/icons /usr/share/icons/gnome /usr/share/mime /usr/share/mime/packages /usr/bin /opt /var/cache /var
 
