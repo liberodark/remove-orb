@@ -1,6 +1,6 @@
 # What is remove-orb
 
-This is a script to uninstall orbital-app that doesn't come with a uninstaller
+This is a script to uninstall [orbital-app](https://www.orbital-apps.com/) that doesn't come with a uninstaller
 and will mess your filesystem permissions.
 
 # Why does it mess my system?
