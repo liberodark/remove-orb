@@ -1,3 +1,9 @@
+#!/bin/bash
+#
+# About: Linux Clock
+# Author: liberodark,fwhcat
+# License: GNU GPLv3
+
 #/opt
 rm -r /opt/orb/
 
