@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# About: Linux Clock
+# About: Remove Orb
 # Author: liberodark,fwhcat
 # License: GNU GPLv3
 
